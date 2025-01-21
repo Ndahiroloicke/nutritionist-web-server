@@ -31,7 +31,7 @@
   },
   "devDependencies": {},
   "scripts": {
-        "start": "json-server --watch db.json --port 7000"
+        "start": "json-server --watch public/db.json --port 7000"
     },
   "keywords": [],
   "author": "",

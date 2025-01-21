@@ -29,10 +29,9 @@
     "totalist": "^3.0.1",
     "type-fest": "^4.33.0"
   },
-  "devDependencies": {},
   "scripts": {
-        "start": "json-server --watch public/db.json --port 7000"
-    },
+  "start": "node ./node_modules/json-server/lib/cli/bin.js --watch public/db.json --port 7000"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
